@@ -22,7 +22,7 @@ tags = {
   Name: var.environment 
  }
 }
-
+ 
 resource "aws_subnet" "dev-subnet-1" {
 vpc_id = aws_vpc.develpment-vpc.id
 cidr_block = var.subnet_cidr_block 
